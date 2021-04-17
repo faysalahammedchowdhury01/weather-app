@@ -60,7 +60,6 @@ function getWeatherData(city = DEFAULT_CITY, coords) {
     })
     // Handle Error
     .catch((err) => {
-      console.log(err);
       alert('City Not Found');
     });
 }
