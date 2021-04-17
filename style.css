@@ -5,10 +5,18 @@ input,
 button {
   box-shadow: none !important;
 }
+.temp-box {
+  font-weight: 600;
+  font-size: 40px;
+}
+.area {
+  font-weight: 500;
+}
 #country-flag {
   width: 35px;
   margin-top: -5px;
 }
 #description {
   text-transform: capitalize;
+  font-weight: 500;
 }
