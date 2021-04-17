@@ -16,49 +16,54 @@
     <link rel="stylesheet" href="style.css" />
     <!-- Title & Favicon -->
     <title>Dhaka Weather</title>
-    <link rel="icon" href="https://www.countryflags.io/BD/flat/64.png" type="image/x-icon">
-  <body>
-    <!-- Main Div -->
-    <div class="container main text-center p-5">
-      <!-- Form -->
-      <form id="form" class="form-group row mb-5 justify-content-center">
-        <div class="col-md-10 col-lg-8 col-xl-6">
-          <div class="input-group">
-            <input
-              id="user-search"
-              type="text"
-              class="form-control"
-              placeholder="Enter Your City Name"
-            />
-            <button type="submit" class="input-group-text btn btn-primary">
-              Submit
-            </button>
+    <link
+      rel="icon"
+      href="https://www.countryflags.io/BD/flat/64.png"
+      type="image/x-icon"
+    />
+    <body>
+      <!-- Main Div -->
+      <div class="container main text-center p-5">
+        <!-- Form -->
+        <form id="form" class="form-group row mb-5 justify-content-center">
+          <div class="col-md-10 col-lg-8 col-xl-6">
+            <div class="input-group">
+              <input
+                id="user-search"
+                type="text"
+                class="form-control"
+                placeholder="Enter Your City Name"
+              />
+              <button type="submit" class="input-group-text btn btn-primary">
+                Submit
+              </button>
+            </div>
           </div>
-        </div>
-      </form>
-      <!-- Weather -->
-      <div class="weather">
-        <img
-          id="weather-condition-image"
-          src="http://openweathermap.org/img/wn/50d@2x.png"
-          alt="
+        </form>
+        <!-- Weather -->
+        <div class="weather">
+          <img
+            id="weather-condition-image"
+            src="http://openweathermap.org/img/wn/50d@2x.png"
+            alt="
           condition"
-        />
-        <h2 class="text-center temp-box"><span id="temp">30</span>°C</h2>
-        <p class="text-center lead mb-0 area">
-          <b id="city">Dhaka</b>, <b id="country">BD</b
-          ><img
-            class="ms-2"
-            src="https://www.countryflags.io/BD/flat/64.png"
-            alt="country"
-            id="country-flag"
           />
-        </p>
-        <p id="description" class="lead text-center mb-0">Haze</p>
+          <h2 class="text-center temp-box"><span id="temp">30</span>°C</h2>
+          <p class="text-center lead mb-0 area">
+            <b id="city">Dhaka</b>, <b id="country">BD</b>
+            <img
+              class="ms-2"
+              src="https://www.countryflags.io/BD/flat/64.png"
+              alt="country"
+              id="country-flag"
+            />
+          </p>
+          <p id="description" class="lead text-center mb-0">Haze</p>
+        </div>
       </div>
-    </div>
 
-    <!-- JS file -->
-    <script src="app.js"></script>
-  </body>
+      <!-- JS file -->
+      <script src="app.js"></script>
+    </body>
+  </head>
 </html>
