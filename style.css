@@ -1,0 +1,7 @@
+body {
+  background-color: #70da71;
+}
+input,
+button {
+  box-shadow: none !important;
+}
