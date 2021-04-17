@@ -5,3 +5,10 @@ input,
 button {
   box-shadow: none !important;
 }
+#country-flag {
+  width: 35px;
+  margin-top: -5px;
+}
+#description {
+  text-transform: capitalize;
+}
